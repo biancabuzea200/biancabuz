@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"finance","permalink":"/blog/tags/finance","count":1},{"label":"property investment","permalink":"/blog/tags/property-investment","count":1}]}')}}]);

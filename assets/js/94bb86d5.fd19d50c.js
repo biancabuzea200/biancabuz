@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[531],{5517:(e,s,t)=>{t.r(s),t.d(s,{default:()=>c});var u=t(6540);function c(){return(0,u.useEffect)(()=>{window.location.href="https://devreluni.substack.com/subscribe"},[]),null}}}]);
