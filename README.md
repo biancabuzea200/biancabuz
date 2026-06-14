@@ -1,7 +1,5 @@
 # Bianca Website
 
-This my open source website: https://didierlopes.com/
-
 
 ---
 
