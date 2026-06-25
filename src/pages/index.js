@@ -34,7 +34,6 @@ if (typeof window !== 'undefined') {
 export default function Home() {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
-  const [beehiivSrc, setBehiivSrc] = useState('https://embeds.beehiiv.com/8a4b3599-3ce0-40ad-8586-910fd9a20ee4');
   const [githubSrc, setGithubSrc] = useState('https://github-stats-alpha.vercel.app/api?username=DidierRLopes&cc=fff&tc=000&ic=000&bc=000');
   const [githubChartSrc, setGithubChartSrc] = useState('https://contribution.oooo.so/_/DidierRLopes?chart=calendar&format=png&weeks=20&theme=blue&widget_size=small');
 
@@ -62,12 +61,6 @@ export default function Home() {
       // Function to update sources based on theme
       const updateSources = () => {
         const isDarkTheme = document.documentElement.getAttribute('data-theme') === 'dark';
-  
-        setBehiivSrc(
-          isDarkTheme
-            ? 'https://embeds.beehiiv.com/8a4b3599-3ce0-40ad-8586-910fd9a20ee4'
-            : 'https://embeds.beehiiv.com/57f8fb43-3409-4d9a-9979-66489741be0c'
-        );
   
         setGithubSrc(
           isDarkTheme
@@ -199,25 +192,25 @@ export default function Home() {
           isTablet={isTablet}
         />
 
-        {/* Newsletter embed retained here for now */}
         <Section className="max-w-[880px] px-4 !mt-0">
-          {ExecutionEnvironment.canUseDOM && (
-            <iframe
-              src={beehiivSrc}
-              data-test-id="beehiiv-embed"
-              width="100%"
-              height={isDesktop ? '200' : '250'}
-              frameBorder="0"
-              scrolling="no"
-              title="Didier newsletter"
+          <div style={{ textAlign: 'center', padding: '1.5rem 0' }}>
+            <a
+              href="https://devreluni.substack.com/subscribe"
+              target="_blank"
+              rel="noreferrer"
               style={{
-                maxWidth: '100%',
-                overflow: 'hidden',
-                display: 'block',
-                margin: '0 auto',
+                display: 'inline-block',
+                padding: '0.75rem 2rem',
+                backgroundColor: '#ff6719',
+                color: 'white',
+                borderRadius: '0.375rem',
+                fontWeight: 600,
+                textDecoration: 'none',
               }}
-            />
-          )}
+            >
+              Subscribe to DevRel Uni
+            </a>
+          </div>
         </Section>
 
         <OutsideWork isDesktop={isDesktop} />
