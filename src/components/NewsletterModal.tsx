@@ -59,28 +59,33 @@ export default function NewsletterModal() {
 
   return (
     <Modal isOpen={isOpen} onClose={handleClose}>
-      <div style={{ 
-        width: '100%', 
-        height: '60vh',
-        minHeight: '450px',
-        maxHeight: '600px',
-        position: 'relative',
-        overflow: 'auto',
-        WebkitOverflowScrolling: 'touch',
-        borderRadius: '0.5rem',
+      <div style={{
+        padding: '2rem',
+        textAlign: 'center',
+        maxWidth: '420px',
+        margin: '0 auto',
       }}>
-        <iframe
-          src="https://devreluni.substack.com/subscribe"
-          width="100%"
-          height="100%"
+        <h2 style={{ marginBottom: '0.75rem' }}>Subscribe to DevRel Uni</h2>
+        <p style={{ marginBottom: '1.5rem', opacity: 0.8 }}>
+          Stay up to date with the latest posts on DevRel, open source, and community building.
+        </p>
+        <a
+          href="https://devreluni.substack.com/subscribe"
+          target="_blank"
+          rel="noreferrer"
+          onClick={handleClose}
           style={{
-            border: 'none',
-            backgroundColor: 'white',
+            display: 'inline-block',
+            padding: '0.75rem 2rem',
+            backgroundColor: '#ff6719',
+            color: 'white',
+            borderRadius: '0.375rem',
+            fontWeight: 600,
+            textDecoration: 'none',
           }}
-          title="Newsletter Subscription"
-          loading="lazy"
-          scrolling="yes"
-        />
+        >
+          Subscribe
+        </a>
       </div>
     </Modal>
   );
