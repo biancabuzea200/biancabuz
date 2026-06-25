@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Learning About Property Investment","permalink":"/blog/learning-about-property-investment","unlisted":false,"date":"2026-01-17T00:00:00.000Z"}]}')}}]);

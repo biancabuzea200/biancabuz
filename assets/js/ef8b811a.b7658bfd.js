@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Didier Lopes","title":"Co-founder & CEO @ OpenBB","url":"https://twitter.com/didier_lopes","imageURL":"https://github.com/didierrlopes.png","key":"didier","page":null,"count":0}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4256],{9946:e=>{e.exports=JSON.parse('{"tags":[{"label":"finance","permalink":"/biancabuz/blog/tags/finance","count":1},{"label":"property investment","permalink":"/biancabuz/blog/tags/property-investment","count":1}]}')}}]);
