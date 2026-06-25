@@ -4,8 +4,8 @@
   <ShortName>Bianca Buzea</ShortName>
   <Description>Search Bianca Buzea</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://biancabuzea.com/biancabuz/img/Bianca_headhsot_square.jpg</Image>
-  <Url type="text/html" method="get" template="https://biancabuzea.com/biancabuz/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://biancabuzea.com/biancabuz/opensearch.xml" />
-  <moz:SearchForm>https://biancabuzea.com/biancabuz/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://biancabuzea.com/img/Bianca_headhsot_square.jpg</Image>
+  <Url type="text/html" method="get" template="https://biancabuzea.com/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://biancabuzea.com/opensearch.xml" />
+  <moz:SearchForm>https://biancabuzea.com/</moz:SearchForm>
 </OpenSearchDescription>
