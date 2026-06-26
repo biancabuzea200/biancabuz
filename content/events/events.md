@@ -2,7 +2,9 @@
 title: Events
 sidebar_position: 6
 ---
-
+## 2026
+- Stable Summit, "[Building Secondary Markets for Onchain Real-World Assets](https://www.youtube.com/watch?v=x502G0Mg9Sg)", Cannes, 28.03 🇫🇷
+- EthCC, "[Strengthening Oracle Security in 2026: Key Principles for Builders](https://www.youtube.com/watch?v=9uXyFnPLJIs)", Cannes, 02.04 🇫🇷
 
 
 ## 2025
