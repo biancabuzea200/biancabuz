@@ -16,7 +16,7 @@ const data = [
   {
     school: 'Technical University of Munich, Germany 🇩🇪',
     link: 'https://www.tum.de/en/',
-    degree: 'Student Exchange Program',
+    degree: 'BSc. Hons. Computer Science (Exchange Year)',
     date: '2018 - 2019',
     summary: [
    
