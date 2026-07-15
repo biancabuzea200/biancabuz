@@ -18,7 +18,12 @@ function WhoAmI({ isDesktop, isTablet }) {
       </div>
       {!isDesktop ? (
         <div className="flex items-center content-center mx-auto align-center justify-center flex-wrap mt-4 gap-8 mb-4">
-          <Carousel
+          <img
+            className="rounded-xl max-w-[220px]"
+            src="img/headshot.jpg"
+            alt="Time-GPT event from Nixtla"
+          />
+          {/* <Carousel
             showThumbs={false}
             showStatus={false}
             renderArrowPrev={(clickHandler, hasPrev) =>
@@ -71,7 +76,7 @@ function WhoAmI({ isDesktop, isTablet }) {
                 alt="OpenBB bridge sticker"
               />
             </div>
-          </Carousel>
+          </Carousel> */}
         </div>
       ) : (
         <div className="flex items-center content-center mx-auto align-center justify-center flex-wrap mt-4 gap-8 mb-4">
